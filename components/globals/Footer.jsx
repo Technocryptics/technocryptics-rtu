@@ -4,13 +4,8 @@ export default function Footer() {
   return (
     <footer className="footer p-10 bg-slate-900 text-yellow-50">
       <div>
-        {/* Image here */}
-        <p>
-          <p className="font-semibold md:text-lg"> Technocryptics</p>
-          <p>
-            A graphic designing club of Rajasthan Technical University, Kota
-          </p>
-        </p>
+        <p className="font-semibold md:text-lg"> Technocryptics</p>
+        <p>A graphic designing club of Rajasthan Technical University, Kota</p>
       </div>
       <div>
         <span className="footer-title">Social</span>
