@@ -23,7 +23,7 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 ring-2 ring-slate-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 ring-2 ring-emerald-300 rounded-box w-52 bg-slate-50"
           >
             <li>
               <a className="active:bg-emerald-400">Homepage</a>
@@ -38,7 +38,9 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl">Technocryptics RTU</a>
+        <a className="btn btn-ghost normal-case text-xl hover:bg-transparent active:bg-emerald-200">
+          Technocryptics RTU
+        </a>
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">
