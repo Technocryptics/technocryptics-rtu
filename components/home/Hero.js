@@ -1,8 +1,10 @@
 import React from "react";
+import AnimationBg1 from "./AnimationBg1";
 
 export default function Hero() {
   return (
     <div className="hero min-h-[90vh] relative">
+      <AnimationBg1 />
       <div className="hero-content text-center">
         <div className="max-w-md md:max-w-lg xl:max-w-xl 2xl:max-w-2xl">
           <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-amber-500 py-2">
