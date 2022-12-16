@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AnimationBg1({ children }) {
   return (
-    <div className="area bg-slate-50">
+    <div className="area">
       <div className="relative z-[1]">{children}</div>
       <ul className="circles">
         <li></li>
@@ -21,7 +21,7 @@ export default function AnimationBg1({ children }) {
           .area {
             background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
             width: 100%;
-            height: 100vh;
+            min-height: 90vh;
           }
 
           .circles {
