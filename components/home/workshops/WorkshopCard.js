@@ -1,20 +1,19 @@
 import React from "react";
 
-export default function WorkshopCard() {
+export default function WorkshopCard({ is = "upcoming", name = "Workshop" }) {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-96 bg-base-100 nap-center flex-shrink-0">
       <figure>
         <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">
-          Shoes!
-          <div className="badge badge-secondary">NEW</div>
-        </h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <h2 className="card-title">{name}</h2>
+        <div className="badge badge-warning">{is}</div>
+        <p>....about....20words...</p>
         <div className="card-actions justify-end">
-          <div className="badge badge-outline">Fashion</div>
-          <div className="badge badge-outline">Products</div>
+          <button className="btn bg-fuchsia-400 border-1 hover:bg-fuchsia-500">
+            Register Today
+          </button>
         </div>
       </div>
     </div>
