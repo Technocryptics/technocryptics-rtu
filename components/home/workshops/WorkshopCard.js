@@ -11,7 +11,7 @@ export default function WorkshopCard({ is = "upcoming", name = "Workshop" }) {
         <div className="badge badge-warning">{is}</div>
         <p>....about....20words...</p>
         <div className="card-actions justify-end">
-          <button className="btn bg-fuchsia-400 border-1 hover:bg-fuchsia-500">
+          <button className="btn bg-fuchsia-400 text-slate-900 border-1 hover:bg-fuchsia-500">
             Register Today
           </button>
         </div>
