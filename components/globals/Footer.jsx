@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="footer p-10 bg-emerald-600 text-neutral-content">
+    <footer className="footer p-10 bg-slate-900 text-yellow-50">
       <div>
         {/* Image here */}
         <p>
