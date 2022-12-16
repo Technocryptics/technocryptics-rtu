@@ -9,10 +9,10 @@ export default function Hero() {
             Hey there
           </h1>
           <p className="pt-3 pb-6 text-lg">
-            A graphic designing club of Rajasthan Technical University, Kota. We
-            organize workshops to make you get statred towards Graphic Design
-            and Out team have professionals who can guida you towards a shining
-            future of Graphic Designing.
+            Technocryptics is a graphic designing club of Rajasthan Technical
+            University, Kota. We organize workshops to make you get statred
+            towards Graphic Design and Out team have professionals who can guida
+            you towards a shining future of Graphic Designing.
           </p>
           <a className="btn btn-wide shadow-[4px_4px_0_0_rgba(0,0,0,1)] active:shadow-[0_0_0_0_rgba(0,0,0,1)] btn-warning text-slate-800 text-2xl outline-none">
             See Workshops
