@@ -26,13 +26,13 @@ export default function Navbar() {
             className="menu menu-compact dropdown-content mt-3 p-2 ring-2 ring-amber-100 rounded-box w-52 bg-white"
           >
             <li>
-              <a className="active:bg-amber-400">Homepage</a>
+              <a className="active:bg-amber-400">Home</a>
             </li>
             <li>
-              <a className="active:bg-amber-400">Portfolio</a>
+              <a className="active:bg-amber-400">Workshops</a>
             </li>
             <li>
-              <a className="active:bg-amber-400">About</a>
+              <a className="active:bg-amber-400">Links</a>
             </li>
           </ul>
         </div>
