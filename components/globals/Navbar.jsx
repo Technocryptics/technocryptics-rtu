@@ -23,22 +23,22 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 ring-2 ring-emerald-300 rounded-box w-52 bg-slate-50"
+            className="menu menu-compact dropdown-content mt-3 p-2 ring-2 ring-amber-300 rounded-box w-52 bg-slate-50"
           >
             <li>
-              <a className="active:bg-emerald-400">Homepage</a>
+              <a className="active:bg-amber-400">Homepage</a>
             </li>
             <li>
-              <a className="active:bg-emerald-400">Portfolio</a>
+              <a className="active:bg-amber-400">Portfolio</a>
             </li>
             <li>
-              <a className="active:bg-emerald-400">About</a>
+              <a className="active:bg-amber-400">About</a>
             </li>
           </ul>
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl hover:bg-transparent active:bg-emerald-200">
+        <a className="btn btn-ghost normal-case text-xl hover:bg-transparent active:bg-amber-200">
           Technocryptics RTU
         </a>
       </div>
