@@ -1,6 +1,7 @@
 import Head from "next/head";
-import Footer from "../components/globals/Footer";
 import Navbar from "../components/globals/Navbar";
+import AnimationBg1 from "../components/home/AnimationBg1";
+import Hero from "../components/home/Hero";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
       </Head>
       <main className="bg-white text-black min-h-screen">
         <Navbar />
-        <Footer />
+        <AnimationBg1>
+          <Hero />
+        </AnimationBg1>
       </main>
     </>
   );
