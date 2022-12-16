@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-white text-black">
+    <div className="navbar bg-white/20 backdrop-blur-md border-b-2 sm:border-none border-b-slate-100/20 text-black fixed top-0 left-0 w-full z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -23,7 +23,7 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 ring-2 ring-amber-300 rounded-box w-52 bg-slate-50"
+            className="menu menu-compact dropdown-content mt-3 p-2 ring-2 ring-amber-100 rounded-box w-52 bg-white"
           >
             <li>
               <a className="active:bg-amber-400">Homepage</a>
