@@ -2,9 +2,8 @@
   "workshop-1": {
     "name": "Intro session",
     "date": "2022-12-18",
-    "short_description": "A short description",
+    "description": "A short description",
     "banner_image": "/images/workshops/image1.png",
-    "long_description": "...long text",
     "images": [
       "/images/workshop/...path_to_image1",
       "/images/workshop/...path_to_image2"
@@ -13,9 +12,9 @@
   "frontend-worksop-2022": {
     "name": "Frontend Workshop",
     "date": "2023-01-27",
-    "short_description": "A short and sweet description",
+    "description": "A short and sweet description",
     "banner_image": "/images/workshops/image2.png",
-    "long_description": "...long text",
+
     "images": [
       "/images/workshop/...path_to_image1",
       "/images/workshop/...path_to_image2",
