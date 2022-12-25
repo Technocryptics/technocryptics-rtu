@@ -7,7 +7,7 @@ import Workshops from "../components/home/workshops/Workshops";
 export default function Home() {
   return (
     <>
-      {/* Add Google Analytics & setup _document */}
+      {/* Add Google Analytics & setup _document scroll padding in document */}
       <Head>
         <title>Technocryptics RTU</title>
         <link rel="icon" href="/favicon.ico" />

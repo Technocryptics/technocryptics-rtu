@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Navbar() {
@@ -38,9 +39,12 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl hover:bg-transparent active:bg-amber-200">
+        <Link
+          href="/"
+          className="btn btn-ghost normal-case text-xl hover:bg-transparent active:bg-amber-200"
+        >
           Technocryptics RTU
-        </a>
+        </Link>
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">

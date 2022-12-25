@@ -16,7 +16,10 @@ export default function Hero() {
             towards Graphic Design and Out team have professionals who can guida
             you towards a shining future of Graphic Designing.
           </p>
-          <a className="btn btn-accent shadow-[4px_4px_0_0_rgba(0,0,0,1)] active:shadow-[0_0_0_0_rgba(0,0,0,1)] btn-warning text-slate-800 text-2xl md:text-3xl lg:text-4xl outline-none no-underline border-black border-2 hover:border-2 skew-y-1 -skew-x-2">
+          <a
+            className="btn btn-accent shadow-[4px_4px_0_0_rgba(0,0,0,1)] active:shadow-[0_0_0_0_rgba(0,0,0,1)] btn-warning text-slate-800 text-2xl md:text-3xl lg:text-4xl outline-none no-underline border-black border-2 hover:border-2 skew-y-1 -skew-x-2"
+            href="#workshops"
+          >
             See Workshops
           </a>
         </div>
