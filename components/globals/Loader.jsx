@@ -64,8 +64,8 @@ export default function Loader() {
           bottom: 0;
           background: #fbbd23;
           transform-origin: 50% 100%;
-          -webkit-animation: fill 4s ease-in-out infinite alternate;
-          animation: fill 4s ease-in-out infinite alternate;
+          -webkit-animation: fill 2s ease-in-out infinite alternate;
+          animation: fill 2s ease-in-out infinite alternate;
         }
         .loader .right {
           transform: rotateY(90deg) translateZ(60px);
@@ -80,8 +80,8 @@ export default function Loader() {
           bottom: 0;
           background: #fbbd23;
           transform-origin: 50% 100%;
-          -webkit-animation: fill 4s ease-in-out infinite alternate;
-          animation: fill 4s ease-in-out infinite alternate;
+          -webkit-animation: fill 2s ease-in-out infinite alternate;
+          animation: fill 2s ease-in-out infinite alternate;
         }
         .loader .back {
           transform: rotateY(180deg) translateZ(60px);
@@ -96,8 +96,8 @@ export default function Loader() {
           bottom: 0;
           background: #fbbd23;
           transform-origin: 50% 100%;
-          -webkit-animation: fill 4s ease-in-out infinite alternate;
-          animation: fill 4s ease-in-out infinite alternate;
+          -webkit-animation: fill 2s ease-in-out infinite alternate;
+          animation: fill 2s ease-in-out infinite alternate;
         }
         .loader .front {
           transform: rotateY(0deg) translateZ(60px);
@@ -112,8 +112,8 @@ export default function Loader() {
           bottom: 0;
           background: #fbbd23;
           transform-origin: 50% 100%;
-          -webkit-animation: fill 4s ease-in-out infinite alternate;
-          animation: fill 4s ease-in-out infinite alternate;
+          -webkit-animation: fill 2s ease-in-out infinite alternate;
+          animation: fill 2s ease-in-out infinite alternate;
         }
         .loader .top {
           transform: rotateX(90deg) translateZ(60px);
@@ -121,8 +121,8 @@ export default function Loader() {
         }
         .loader .fill-top {
           background: #fbbd23;
-          -webkit-animation: fill-top 4s ease-in-out infinite alternate;
-          animation: fill-top 4s ease-in-out infinite alternate;
+          -webkit-animation: fill-top 2s ease-in-out infinite alternate;
+          animation: fill-top 2s ease-in-out infinite alternate;
         }
 
         @-webkit-keyframes fill {
