@@ -13,7 +13,7 @@ export default function Hero() {
           <p className="pt-3 pb-6 text-lg lg:text-xl xl:text-2xl">
             Technocryptics is a graphic designing club of Rajasthan Technical
             University, Kota. We organize workshops to make you get statred
-            towards Graphic Design and Out team have professionals who can guida
+            towards Graphic Design and Out team have professionals who can guide
             you towards a shining future of Graphic Designing.
           </p>
           <a
