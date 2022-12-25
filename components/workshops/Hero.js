@@ -5,7 +5,7 @@ export default function Hero({ images, slug, name, description, type }) {
   return (
     <div className="hero min-h-[80vh] overflow-x-hidden">
       <div className="hero-content flex-col lg:flex-row">
-        <div className="max-w-sm lg:max-w-md xl:max-w-lg">
+        <div className="max-w-[90vw] mx-auto sm:max-w-sm lg:max-w-md xl:max-w-lg">
           <Carousel images={images} slug={slug} key={slug} />
         </div>
 
