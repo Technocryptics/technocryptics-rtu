@@ -10,7 +10,7 @@ export default function WorkshopCarousel() {
         {workshops.map((workshop) => (
           <WorkshopCard
             name={workshop.name}
-            slug={workshop.slug}
+            slug={"workshops/" + workshop.slug}
             type={workshop.type}
             image={
               "/images/workshops/" + workshop.slug + "/" + workshop.images[0]
