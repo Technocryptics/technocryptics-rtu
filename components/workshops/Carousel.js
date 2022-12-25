@@ -27,7 +27,7 @@ export default function Carousel({ images, slug }) {
             key={`carousel_image_${index}`}
           >
             <img
-              src={`/images/workshops/${slug}/${images[0]}`}
+              src={`/images/workshops/${slug}/${image}`}
               alt="workshop"
               className="h-64 md:h-72 lg:h-80 xl:h-96 w-full object-cover rounded-xl"
               loading="lazy"
