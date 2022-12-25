@@ -11,10 +11,10 @@ export default function Workshops() {
   useEffect(() => {
     // check if router data is loaded and then only touch state
     if (workshop != undefined) {
-      if (workshop in workshops) {
-        // fetch specific object from wrksopps data object
-        let _data = workshops[workshop];
-        setData(_data);
+      // check for specific workshop
+      const i = workshops.findIndex((e) => e.slug === workshop);
+      if (i > -1) {
+        setData(workshops[i]);
       } else {
         router.push("/");
       }
