@@ -8,7 +8,6 @@ export default function Hero({ images, slug, name, description, type, link }) {
         <div className="max-w-[90vw] mx-auto sm:max-w-sm lg:max-w-md xl:max-w-lg">
           <Carousel images={images} slug={slug} key={slug} />
         </div>
-
         <div>
           <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl font-bold">
             {name}
