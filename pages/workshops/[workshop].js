@@ -1,4 +1,3 @@
-import { Head } from "next/document";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Footer from "../../components/globals/Footer";
