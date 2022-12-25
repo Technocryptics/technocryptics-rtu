@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en" className="scroll-p-32 xl:scroll-p-36  2xl:scroll-p-48">
+    <Html lang="en" className="scroll-p-28">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         {/* meta tags generated from WebSearcher(https://websearcher.pushkaryadav.in/) */}
