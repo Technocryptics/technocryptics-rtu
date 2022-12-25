@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Footer from "../../components/globals/Footer";
 import Navbar from "../../components/globals/Navbar";
-import Carousel from "../../components/workshops/Carousel";
 import Hero from "../../components/workshops/Hero";
 import workshops from "./../../config/workshops.json";
 export default function Workshops() {
