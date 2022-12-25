@@ -2,6 +2,8 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Footer from "../../components/globals/Footer";
 import Navbar from "../../components/globals/Navbar";
+import Carousel from "../../components/workshops/Carousel";
+import Hero from "../../components/workshops/Hero";
 import workshops from "./../../config/workshops.json";
 export default function Workshops() {
   const router = useRouter();
@@ -26,7 +28,16 @@ export default function Workshops() {
         <>
           <Navbar />
           <div className="h-20">{/* here for navbar spacing TODO: fix */}</div>
-          <div>{data.name}</div>
+
+          <Hero
+            name={data.name}
+            images={data.images}
+            slug={data.slug}
+            key={data.slug}
+            description={data.description}
+            type={data.type}
+          />
+
           <Footer />
         </>
       )}
