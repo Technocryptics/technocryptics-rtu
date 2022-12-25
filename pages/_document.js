@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en" className="scroll-p-32 xl:scroll-p-36  2xl:scroll-p-48">
       <Head>
-        <title>Technocryptics</title>
         <link rel="icon" href="/favicon.ico" />
         {/* meta tags generated from WebSearcher(https://websearcher.pushkaryadav.in/) */}
         <meta name="title" content="Technocryptics" />

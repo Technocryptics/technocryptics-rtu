@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Footer from "../../components/globals/Footer";
@@ -24,6 +25,9 @@ export default function Workshops() {
   }, [workshop]);
   return (
     <>
+      <Head>
+        <title>Workshops</title>
+      </Head>
       {data != null && (
         <>
           <Navbar />
