@@ -23,10 +23,14 @@ export default function Workshops() {
   }, [workshop]);
   return (
     <>
-      <Navbar />
-      <div className="h-20">{/* here for navbar spacing TODO: fix */}</div>
-      {data != null && <div>{data.name}</div>}
-      <Footer />
+      {data != null && (
+        <>
+          <Navbar />
+          <div className="h-20">{/* here for navbar spacing TODO: fix */}</div>
+          <div>{data.name}</div>
+          <Footer />
+        </>
+      )}
     </>
   );
 }
