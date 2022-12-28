@@ -45,7 +45,7 @@ export default function Footer() {
           className="inline-block transition-all no-underline text-inherit hover:brightness-110 mt-2"
           title="Website developed by Pushkar Yadav"
         >
-          &lt;/&gt; by Pushkar Yadav
+          Designed and &lt;/&gt; &copy;pushkarydv
         </a>
       </p>
     </>
