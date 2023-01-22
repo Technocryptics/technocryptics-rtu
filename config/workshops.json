@@ -4,31 +4,27 @@
     "name": "The Advertisement Poster Designing Competition",
     "type": "upcoming",
     "description": "This competition is going to held successively after the workshop in which the participant will be able to compete with each other for making advertisement poster using adobe illustrator.",
-    "images": ["1.png"],
-    "link": "#"
+    "images": ["1.png"]
   },
   {
     "slug": "the-graphics-designing-workshop",
     "name": "The Graphics Designing Workshop",
     "type": "completed",
     "description": "This workshop was organized in December 2022 in which we help the aspirants in getting familiar with adobe illustrator. In this workshop, every basic detail and information was discussed related to the adobe illustrator. The participants were given a task for making advertisement posters for analog watch where the club members and the volunteers help them whenever got encountered with a problem.",
-    "images": ["1.jpeg", "2.jpg", "3.jpg", "4.jpg"],
-    "link": "#"
+    "images": ["1.jpeg", "2.jpg", "3.jpg", "4.jpg"]
   },
   {
     "slug": "introduction-to-graphic-designing",
     "name": "Introduction to Graphic Designing",
     "type": "completed",
     "description": "This workshop was organized in may 2022 in order to help the enthusiasts come closer to their dream. The workshop was basically about the graphic designing software that should be used according to their strong areas and how to expect jobs and clients from freelancing.",
-    "images": ["1.jpeg", "2.jpeg", "3.jpeg"],
-    "link": "#"
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg"]
   },
   {
     "slug": "graphics-workshop",
     "name": "Graphics Workshop",
     "type": "completed",
     "description": "This workshop was organized in October 2018 in an attempt to make awareness about what is graphic designing, the future of graphic designing and the job opportunities with the help of graphic designing. The workshop covers the most basic information about the graphic designing and what one can expect from it. ",
-    "images": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"],
-    "link": "#"
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"]
   }
 ]

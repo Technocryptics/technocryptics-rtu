@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "./Carousel";
 
-export default function Hero({ images, slug, name, description, type, link }) {
+export default function Hero({ images, slug, name, description, type }) {
   return (
     <div className="hero min-h-[80vh] overflow-x-hidden">
       <div className="hero-content flex-col lg:flex-row">
@@ -16,24 +16,6 @@ export default function Hero({ images, slug, name, description, type, link }) {
             {type}
           </p>
           <p className="py-6">{description}</p>
-          {type == "completed" && (
-            <button
-              className="btn btn-warning text-slate-700 active:bg-amber-400"
-              onClick={() => {
-                alert("Form Inactive: Workshop has been completed");
-              }}
-            >
-              Google Form
-            </button>
-          )}
-          {type == "upcoming" && (
-            <a
-              className="btn btn-warning text-slate-700 active:bg-amber-400"
-              href={link}
-            >
-              Google Form
-            </a>
-          )}
         </div>
       </div>
     </div>

@@ -39,7 +39,6 @@ export default function Workshops() {
             key={data.slug}
             description={data.description}
             type={data.type}
-            link={data.link}
           />
 
           <Footer />
