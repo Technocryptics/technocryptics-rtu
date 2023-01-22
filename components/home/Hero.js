@@ -5,23 +5,27 @@ export default function Hero() {
   return (
     <div className="hero min-h-[90vh] relative">
       <AnimationBg1 />
-      <div className="hero-content text-center">
-        <div className="max-w-md md:max-w-lg xl:max-w-2xl 2xl:max-w-5xl">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-amber-500 py-2">
-            Hey there
-          </h1>
-          <p className="pt-3 pb-6 text-lg lg:text-xl xl:text-2xl">
+      <div className="hero-content">
+        <div className="h-48 md:h-52 lg:h-72 aspect-[2/3] z-[-1] bg-[#F0CE00] absolute left-0 top-24 "></div>
+        <h1 className="text-5xl md:text-6xl lg:text-7xl absolute left-12 md:left-16 lg:left-28 top-32 lg:top-40 font-bold py-2 text-[#031261] w-fit">
+          Hey there
+        </h1>
+        <div className="w-[90vw] mx-auto">
+          <p className="pt-3 pb-6 text-xl lg:text-2xl xl:text-3xl">
             Technocryptics is a graphic designing club of Rajasthan Technical
             University, Kota. We organize workshops to make you get statred
             towards Graphic Design and Out team have professionals who can guide
             you towards a shining future of Graphic Designing.
           </p>
-          <a
-            className="btn btn-accent shadow-[4px_4px_0_0_rgba(0,0,0,1)] active:shadow-[0_0_0_0_rgba(0,0,0,1)] btn-warning text-slate-800 text-2xl md:text-3xl lg:text-4xl outline-none no-underline border-black border-2 hover:border-2 skew-y-1 -skew-x-2"
-            href="#workshops"
-          >
-            See Workshops
-          </a>
+          <div className="flex justify-center items-center">
+            {" "}
+            <a
+              className="bg-[#29ABE2] p-4 text-2xl lg:text-3xl font-semibold text-white rounded-tl-xl rounded-tr-xl rounded-br-xl absolute bottom-24 lg:bottom-32  ring-2 ring-[#031261]"
+              href="#workshops"
+            >
+              See Workshops
+            </a>
+          </div>
         </div>
       </div>
     </div>
