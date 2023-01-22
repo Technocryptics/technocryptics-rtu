@@ -1,24 +1,28 @@
 import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation, Autoplay } from "swiper";
+
+import { Keyboard, Autoplay, Pagination, Navigation } from "swiper";
+
 import "swiper/css";
 
 export default function Carousel({ images, slug }) {
   return (
     <div className="max-w-full overflow-x-scroll no-scrollbar">
       <Swiper
+        spaceBetween={50}
         slidesPerView={1}
-        spaceBetween={30}
-        loop={true}
+        keyboard={{
+          enabled: true,
+        }}
         autoplay={{
-          delay: 2500,
+          delay: 1500,
           disableOnInteraction: false,
         }}
         pagination={{
           dynamicBullets: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation, Keyboard]}
         className="mySwiper flex justify-center items-center w-full"
       >
         {images.map((image, index) => (
