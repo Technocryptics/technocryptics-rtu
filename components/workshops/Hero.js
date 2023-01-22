@@ -1,13 +1,16 @@
 import React from "react";
-import Carousel from "./Carousel";
 
 export default function Hero({ images, slug, name, description, type }) {
   return (
-    <div className="hero min-h-[80vh] overflow-x-hidden">
+    <div className="hero my-12 md:my-16 overflow-x-hidden">
       <div className="hero-content flex-col lg:flex-row">
-        <div className="max-w-[90vw] mx-auto sm:max-w-sm lg:max-w-md xl:max-w-lg">
-          <Carousel images={images} slug={slug} key={slug} />
-        </div>
+        <img
+          src={`/images/workshops/${slug}/${images[0]}`}
+          alt="workshop"
+          className="h-80 md:h-96 rounded-xl w-auto object-cover mx-auto"
+          loading="lazy"
+        />
+
         <div>
           <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl font-bold">
             {name}

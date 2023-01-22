@@ -39,13 +39,13 @@ export default function Footer() {
       </footer>
       <p className="bg-slate-900 text-slate-500 hover:text-slate-300 font-semibold pb-3 text-center">
         <a
-          href="https://pushkaryadav.in/"
+          href="https://pushkaryadav.in/404"
           rel="noopener noreferrer"
           target="_blank"
           className="inline-block transition-all no-underline text-inherit hover:brightness-110 mt-2"
           title="Website developed by Pushkar Yadav"
         >
-          &lt;/&gt;
+          Team Technocryptics
         </a>
       </p>
     </>

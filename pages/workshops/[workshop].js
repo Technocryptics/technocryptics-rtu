@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Footer from "../../components/globals/Footer";
 import Navbar from "../../components/globals/Navbar";
+import Carousel from "../../components/workshops/Carousel";
 import Hero from "../../components/workshops/Hero";
 import workshops from "./../../config/workshops.json";
 export default function Workshops() {
@@ -40,7 +41,12 @@ export default function Workshops() {
             description={data.description}
             type={data.type}
           />
-
+          <div className="text-center text-2xl -rotate-6 mb-6 bg-yellow-300 w-fit mx-auto py-2 px-4 rounded-sm">
+            Some Glimpses
+          </div>
+          <div className="max-w-[90vw] mx-auto sm:max-w-sm lg:max-w-lg xl:max-w-xl mb-12">
+            <Carousel images={data.images} slug={data.slug} key={data.slug} />
+          </div>
           <Footer />
         </>
       )}
