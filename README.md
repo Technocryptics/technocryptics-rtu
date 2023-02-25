@@ -1,3 +1,5 @@
+## Technocryptics is a graphic design club of Rajasthan Technical University, Kota
+
 <details>
 <summary>
   NextJS Guide - to run this locally
