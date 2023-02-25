@@ -39,7 +39,7 @@ export default function Footer() {
       </footer>
      <p className="bg-slate-900 text-slate-400 hover:text-slate-300 font-semibold pb-3 text-center">
         <a
-          href="https://github.com/pushkarydv/technocryptics"
+          href="https://pushkaryadav.in/"
           rel="noopener noreferrer"
           target="_blank"
           className="inline-block transition-all no-underline text-inherit hover:brightness-110 mt-2"
